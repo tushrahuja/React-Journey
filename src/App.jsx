@@ -1,15 +1,16 @@
-import Greeting from "./components/Greeting";
-import IconComponent from "./components/IconComponent";
-import ProfileCard from "./components/ProfileCard";
-import StyleCard from "./components/StyleCard";
+import Profile from "./components/Profile";
+import ShoppingList from "./components/ShoppingList";
+import TodoList from "./components/TodoList";
+import CounterExample from "./components/CounterExample";
 
 
 const App = () => {
   return (
     <section>
-      <StyleCard />
-      <ProfileCard />
-      <IconComponent />
+      <CounterExample />
+      <TodoList />
+      <Profile />
+      <ShoppingList />
     </section>
   );
 };
